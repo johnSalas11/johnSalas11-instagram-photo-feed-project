@@ -1,0 +1,41 @@
+body{
+    background: lightgray;
+    margin: 0;
+}
+div{
+    box-sizing: border-box;
+}
+header {
+    background: white;
+    padding: 10px;
+}
+header h1 {
+    margin: 0;
+}
+div.post {
+    background: white;
+    border-radius: 5%;
+}
+div.post img{
+    width: 100%;
+}
+div.post h2, div.post p{
+    padding: 10px;
+    margin: 0;
+}
+div.container{
+    width: 400px;
+    margin: auto;
+    margin-top: 10px;
+}
+div.post .TituloyFecha div:first-child{
+    display: inline-block;
+    width: 80%;
+}
+div.post .TituloyFecha div:last-child{
+    display: inline-block;
+    width: 20%;
+    color: gray;
+    text-align: right;
+    padding: 10px;   
+}
